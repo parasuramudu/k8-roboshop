@@ -133,7 +133,7 @@ spec:
     spec:
       containers:
       - name: web
-        imagePullPolicy: always
+        imagePullPolicy: Always
         image: parasuramkoppada/web:k8
         volumeMounts:
         - name: nginx-config
